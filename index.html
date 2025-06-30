@@ -317,6 +317,99 @@ while not trouve:
       <li>Afficher le score final</li>
     </ul>
 
+    <h2><strong>Correction des exercices</strong></h2>
+    <p><strong>Exercice -Les variables</strong></p>
+    <p>🎯 Objectif : Créer 3 variables et les afficher</p>
+    <button onclick="copyCode('code-condition')">Copier</button>
+    <pre><code>prenom = "Sophie"
+    animal = "chat"
+    age = 13
+    print("Prénom :", prenom)
+    print("Animal préféré :", animal
+    print("Age :", age)
+    </code></pre>
+
+    <p><strong>🔢 Exercice – Opérations</strong></p>
+    <p>🎯 Objectif : Créer deux nombres et afficher leur somme et produit</p>
+    <button onclick="copyCode('code-condition')">Copier</button>
+    <pre><code>
+      a = 7
+      b = 5
+
+      print("Somme =", a + b)
+      print("Produit =", a * b)
+    </code></pre>
+
+    <p><strong>❓ Exercice – Conditions (if / elif / else)</strong></p>
+    <p>🎯 Objectif : Afficher un message selon la valeur d’une tirelire</p>
+    <button onclick="copyCode('code-condition')">Copier</button>
+    <pre><code>tirelire = 30
+      
+      if tirelire >= 100: 
+        print("Tu es riche") 
+      elif tirelire >= 30: 
+        print("Ça va") else: print("Tu es pauvre")
+    </code></pre>
+
+    <p><strong>🔁 Exercice – Boucles 🔹 Nombres de 1 à 10</strong></p>
+    <button onclick="copyCode('code-condition')">Copier</button>
+    <pre><code>
+      for i in range(1, 11): 
+        print(i)
+      
+      🔹 Nombres pairs entre 1 et 20
+
+      for i in range(2, 21, 2): 
+        print(i)
+    </code></pre>
+
+    <p><strong>🧩 Exercice – Fonctions 🔹 Afficher le carré d’un nombre</strong></p>
+    <button onclick="copyCode('code-condition')">Copier</button>
+    <pre><code>def carre(n): 
+      print(n * n)
+      carre(4)
+      
+      🔹 Afficher « Bonjour » 5 fois
+      
+      def saluer(): 
+      for i in range(5): print("Bonjour")
+      
+      saluer()
+    </code></pre>
+
+    <p><strong>📚 Exercices pratiques 1️⃣ Répéter un prénom 5 fois, puis dire bonjour</strong></p>
+    <button onclick="copyCode('code-condition')">Copier</button>
+    <pre><code>def repeter_prenom(prenom):
+      for i in range(5):
+        print(prenom) print("Bonjour")
+      repeter_prenom("Emma")
+    </code></pre>
+
+    <p><strong>2️⃣ Afficher le plus grand de deux nombres</strong></p>
+    <button onclick="copyCode('code-condition')">Copier</button>
+    <pre><code>def plus_grand(a, b): 
+      if a > b: 
+        print(a) else: print(b)
+
+plus_grand(10, 7)
+    </code></pre>
+
+    <p><strong>3️⃣ Afficher les multiples de 3 jusqu’à un nombre donné</strong></p>
+    <button onclick="copyCode('code-condition')">Copier</button>
+    <pre><code>def multiples_de_3(nb): 
+      for i in range(1, nb + 1): 
+        if i % 3 == 0: 
+          print(i)
+
+multiples_de_3(20)
+    </code></pre>
+
+    <p><strong>4️⃣ Compter à rebours de 10 à 0</strong></p>
+    <button onclick="copyCode('code-condition')">Copier</button>
+    <pre><code>for i in range(10, -1, -1): 
+      print(i)```
+    </code></pre>
+    
     <hr />
 
     <!-- Conclusion -->
